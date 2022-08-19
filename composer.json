@@ -1,0 +1,15 @@
+{
+    "name": "runzen/simplephp",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ranjan Baruah",
+            "email": "ranjanbaruah1101@gmail.com"
+        }
+    ],
+    "require": {}
+}
