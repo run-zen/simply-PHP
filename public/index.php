@@ -8,8 +8,8 @@ use app\controllers\SiteController;
 
  $app->router->get('/', 'home');
 
- $app->router->get('/home', 'home');
- $app->router->get('/contact', 'Contact');
+ $app->router->get('/home', [SiteController::class, 'home']);
+ $app->router->get('/contact', [SiteController::class, 'contact']);
 
  $app->router->post('/contact', [SiteController::class, 'handleContact']);
 

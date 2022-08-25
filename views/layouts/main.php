@@ -45,7 +45,7 @@
 </nav>
 
 <div class="container">
-    {{content}}
+    {{php_app_views}}
 </div>
 
 <!-- Optional JavaScript; choose one of the two! -->
